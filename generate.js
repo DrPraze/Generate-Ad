@@ -1,3 +1,5 @@
+const {Movie, Scene} = require("json2video-sdk");
+
 let movie = new Movie;
 
 movie.setAPIKey(YOUR_API_KEY);
