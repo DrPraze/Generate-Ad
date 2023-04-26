@@ -14,6 +14,6 @@
   "author": "Praise James",
   "license": "ISC",
   "dependencies": {
-    "json2video-sdk": "^2.0.0",
+    "json2video-sdk": "^2.0.0"
   }
 }
