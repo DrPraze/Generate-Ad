@@ -8,8 +8,8 @@
     "start": "node generate.js"
   },
   "keywords": [
-    "Email",
-    "Bulk"
+    "JSON",
+    "Video"
   ],
   "author": "Praise James",
   "license": "ISC",
