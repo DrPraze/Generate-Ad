@@ -3,7 +3,7 @@ const { Movie, Scene } = require('json2video-sdk');
 async function main(){
   let movie = new Movie;
 
-  movie.setAPIKey(YOUR_API_KEY);
+  movie.setAPIKey("Hkrf4UF5S17YD2vWLNDyx9eMi63T9yub2USh2zmX");
 
   movie.set("comment", "Introducing the Slakenet Business Suite");
   movie.set("resolution", "full-hd");
@@ -236,7 +236,7 @@ async function main(){
 
   scene5.addElement({
     "type":"image",
-    "src":"slakenet logo"
+    "src":"https://res.cloudinary.com/db8bxn9pc/image/upload/v1682447925/Add_a_subheading_zhi744.png",
     "duration":6
   });
 
@@ -244,7 +244,7 @@ async function main(){
   //Add audio to the movie
   movie.addElement({
     "type": "audio",
-    "src": "bensound track",
+    "src": "https://res.cloudinary.com/db8bxn9pc/video/upload/v1682448360/inspire_jsmwnu.mp3",
     "start": 1
   });
 
