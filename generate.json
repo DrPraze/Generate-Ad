@@ -1,0 +1,292 @@
+{
+	"comment": "Introducing the Slakenet Business Suite",
+	"resolution": "sd",
+	"quality": "high",
+	"draft": true,
+	"elements":[
+	    {
+	        "type": "audio",
+	        "src": "https://res.cloudinary.com/db8bxn9pc/video/upload/v1682448360/inspire_jsmwnu.mp3",
+	        "volume": 2,
+	        "duration": 77
+        }
+	    ],
+	"scenes": [
+		{
+			"elements":[
+				{
+					"type":"video",
+					"src":"https://player.vimeo.com/external/451919865.sd.mp4?s=b80a74b12959c7d65f7e0bf94b8f835b192ead03&profile_id=164&oauth2_token_id=57447761",
+					"muted":true
+				},
+				{
+    				"type": "text",
+    				"style": "008",
+    				"text": "Ads are usually annoying",
+    				"settings": {
+      					"font-size": "10vw",
+      					"text-shadow": "3px 3px black"
+    				}
+    			},
+				{
+				    "type": "voice",
+				    "text": "We've all been there - scrolling through our social media feeds, bombarded with generic ads that don't interest us at all. But what if there was a way to personalize those ads, to make them relevant and engaging?",
+				    "voice": "en-NG-EzinneNeural"
+				}
+			]
+		},
+		{
+			"elements":[
+				},
+				{
+				    "type": "component",
+				    "component": "basic/001",
+				    "width": 920,
+				    "x": 960,
+				    "y": 160,
+				    "settings": {
+				      "headline": {
+				        "text": "Introducing Slakenet Business Suite",
+				        "color": "white",
+				        "font-size": "6vw"
+				      },
+				      "body": {
+				        "text": [
+				          "state-of-the-art technology to generate personalized ads that resonate with your target audience",
+				          "Rewards people with internet access for their data"
+				        ],
+				        "color": "white",
+				        "font-size": "4vw"
+				      },
+				      "card": {
+				        "background": "rgb(0,0,0, 0.3)",
+				        "padding": "4vw"
+				    }
+				}
+			},
+			{
+				"type": "voice",
+				"text": "Introducing Slakenet Business Suite - the platform that uses state-of-the-art technology to analyze customer data and generate personalized ads that resonate with your target audience. And the best part? We're very cheap, almost free.",
+				"voice": "en-NG-EzinneNeural"
+			}
+			]
+		},
+		{
+			"elements":[
+				{
+				    "type": "video",
+				    "src": "https://player.vimeo.com/external/562638295.sd.mp4?s=ed5f30580cfde44ecee638581446f5e61c2690eb&profile_id=164&oauth2_token_id=57447761",
+				    "muted": true
+				},
+				{
+				    "type": "component",
+				    "component": "basic/001",
+				    "width": 920,
+				    "x": 40,
+				    "y": 240,
+				    "settings": {
+				      "headline": {
+				        "text": "Powered by AI, state-of-the-art tech, Google awarded tools and powerful APIs",
+				        "color": "white",
+				        "font-size": "6vw"
+				      },
+				      "body": {
+				        "text": [
+				          "Groundbreaking",
+				          "100% personalized and tailored",
+				          "Highly Engagine and converting!",
+				          "Use in organic marketing"
+				        ],
+				        "color": "white",
+				        "font-size": "4vw"
+				      },
+				      "card": {
+				        "background": "rgb(0,0,0, 0.3)",
+				        "padding": "2vw"
+				      }
+				    }
+				},
+		      	{
+                    "type": "voice",
+                    "text": "Our platform is powered by AI, meaning your ads are 100% personalized and tailored to your customers' interests. You can target specific personas - you can create ads that speak to them in their language, best time to be approached, etc, making the experience even more engaging!",
+                    "voice": "en-NG-EzinneNeural"
+                }
+			
+			]
+		},
+		{
+		    "elements":[
+		        {
+		            "type": "video",
+		            "src": "https://player.vimeo.com/external/540384605.sd.mp4?s=a5e840a936d41cb50bc96b09b4553ec6325c1b35&profile_id=164&oauth2_token_id=57447761",
+		            "muted": true
+		        },
+                {
+
+                    "type": "text",
+                    "style": "001",
+                    "text": "COMING SOON",
+                    "settings": {
+                        "font-family": "Bebas Neue",
+                        "font-weight": "400",
+                        "font-size": "30vw",
+                        "vertical-align": "bottom",
+                        "horizontal-align": "left",
+                        "text-align": "left",
+                        "opacity": "0.5",
+                        "line-height": "25vw"
+                    },
+                    "width": 960,
+                    "x": 30,
+                    "cache": false
+                },
+                {
+                    "type": "component",
+                    "component": "basic/100",
+                    "settings": {
+                        "box": {
+                            "initial_left": "100%",
+                            "final_left": "50%",
+                            "background": "yellow",
+                            "box-shadow": "none",
+                            "duration": 2000
+                        }
+                    }
+                },
+                {
+                    "type": "text",
+                    "style": "001",
+                    "text": "featuring",
+                    "settings": {
+                        "font-family": "Bebas Neue",
+                        "font-weight": "400",
+                        "color": "white",
+                        "font-size": "10vw"
+                    },
+                    "x": 960,
+                    "y": 40,
+                    "width": 960,
+                    "height": 200
+                },
+                {
+                    "type": "component",
+                    "component": "basic/125",
+                    "settings": {
+                        "table": {
+                            "width": "100vw",
+                            "font-size": "4vw",
+                            "font-family": "Lato",
+                            "font-weight": "300",
+                            "border-spacing": "0 4vw"
+                        },
+                        "header": {
+                            "display": "none",
+                            "column-widths":
+                            [
+                                "35%",
+                                "65%"
+                            ]
+                        },
+                        "first-column": {
+                            "border-right": "4px solid white",
+                            "text-align": "right"
+                        },
+                        "cells": {
+                            "padding": "5px 10px"
+                        },
+                        "data": {
+                            "columns": [
+                                "featuring",
+                                ""
+                                ],
+                                "rows": [
+                                    [
+                                        "Market Analysis",
+                                        "Analyze the market by getting access to real time data. Find where in the internet that people that need you are hanging out"
+                                    ],
+                                    [
+                                        "Automated customer targeting",
+                                        "Automate your marketing process by using AI to generate personalized engaging ad flyers, content and videos"
+                                    ],
+                                    [
+                                        "Iterate",
+                                        "Review your data to continously itereate and improve your marketing to the best way possible"
+                                    ]
+                                ]
+                            
+                        }
+                        
+                    },
+                    "width": 960,
+                    "x": 960,
+                    "start": 2
+                },
+                {
+                    "type": "voice",
+                    "text": "We generated this ad by simply placing a simple product description of the Slakenet business suite to our algorithms, but we're making it more robust and the video ads more advanced. We're launching our Slakenet Business Suite beta very soon, to help you launch personalized ads that truly resonate with your customers. Follow us on twitter and Facebook to get updates",
+                    "voice": "en-NG-EzinneNeural"
+                }
+            ]
+		},
+		{
+		    "elements":[
+                {
+                    "type":"image",
+                    "src":"https://res.cloudinary.com/db8bxn9pc/image/upload/v1682447925/Add_a_subheading_zhi744.png",
+                    "duration":9
+                }
+		    ]
+		}
+	]
+}
+}
+		}
+	]
+}
+
+}}		    ]
+		}
+	]
+}
+
+}}
+		}
+	]
+}
+
+}}
+                }
+		    ]
+		}
+	]
+}
+
+}}}}}on":9
+                }
+		    ]
+		}
+	]
+}
+}
+		}
+	]
+}
+
+}}		    ]
+		}
+	]
+}
+
+}}
+		}
+	]
+}
+
+}}
+                }
+		    ]
+		}
+	]
+}
+
+}}
