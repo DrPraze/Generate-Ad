@@ -1,13 +1,13 @@
 {
 	"comment": "Introducing the Slakenet Business Suite",
-	"resolution": "sd",
+	"resolution": "hd",
 	"quality": "high",
 	"draft": true,
 	"elements":[
 	    {
 	        "type": "audio",
 	        "src": "https://res.cloudinary.com/db8bxn9pc/video/upload/v1682448360/inspire_jsmwnu.mp3",
-	        "volume": 2,
+	        "volume": 1,
 	        "duration": 77
         }
 	    ],
@@ -16,7 +16,7 @@
 			"elements":[
 				{
 					"type":"video",
-					"src":"https://player.vimeo.com/external/451919865.sd.mp4?s=b80a74b12959c7d65f7e0bf94b8f835b192ead03&profile_id=164&oauth2_token_id=57447761",
+					"src":"https://download.pexels.com/vimeo/451919864/pexels-dmc-filmes-5201209.mp4?fps=29.97&width=1280",
 					"muted":true
 				},
 				{
@@ -37,6 +37,9 @@
 		},
 		{
 			"elements":[
+				{
+					"type":"video",
+					"src":"https://download.pexels.com/vimeo/539041039/pexels-tima-miroshnichenko-7579953.mp4?fps=25.0&width=1366"
 				},
 				{
 				    "type": "component",
@@ -61,21 +64,22 @@
 				      "card": {
 				        "background": "rgb(0,0,0, 0.3)",
 				        "padding": "4vw"
-				    }
+				      }
+					}
+				},
+				{
+					"type": "voice",
+					"text": "Introducing Slakenet Business Suite - the platform that uses state-of-the-art technology to analyze customer data and generate personalized ads that resonate with your target audience. And the best part? We're very cheap, almost free.",
+					"voice": "en-NG-EzinneNeural"
 				}
-			},
-			{
-				"type": "voice",
-				"text": "Introducing Slakenet Business Suite - the platform that uses state-of-the-art technology to analyze customer data and generate personalized ads that resonate with your target audience. And the best part? We're very cheap, almost free.",
-				"voice": "en-NG-EzinneNeural"
-			}
+			
 			]
 		},
 		{
 			"elements":[
 				{
 				    "type": "video",
-				    "src": "https://player.vimeo.com/external/562638295.sd.mp4?s=ed5f30580cfde44ecee638581446f5e61c2690eb&profile_id=164&oauth2_token_id=57447761",
+				    "src": "https://download.pexels.com/vimeo/562638295/pexels-pavel-danilyuk-8327799.mp4?fps=25.0&width=1280",
 				    "muted": true
 				},
 				{
@@ -118,7 +122,7 @@
 		    "elements":[
 		        {
 		            "type": "video",
-		            "src": "https://player.vimeo.com/external/540384605.sd.mp4?s=a5e840a936d41cb50bc96b09b4553ec6325c1b35&profile_id=164&oauth2_token_id=57447761",
+		            "src": "https://download.pexels.com/vimeo/540384605/pexels-kindel-media-7615675.mp4?fps=30.0&width=1280",
 		            "muted": true
 		        },
                 {
@@ -147,7 +151,7 @@
                         "box": {
                             "initial_left": "100%",
                             "final_left": "50%",
-                            "background": "yellow",
+                            "background": "#0F132D",
                             "box-shadow": "none",
                             "duration": 2000
                         }
@@ -233,60 +237,10 @@
                 {
                     "type":"image",
                     "src":"https://res.cloudinary.com/db8bxn9pc/image/upload/v1682447925/Add_a_subheading_zhi744.png",
+                    "position":"center-center",
                     "duration":9
                 }
 		    ]
 		}
 	]
 }
-}
-		}
-	]
-}
-
-}}		    ]
-		}
-	]
-}
-
-}}
-		}
-	]
-}
-
-}}
-                }
-		    ]
-		}
-	]
-}
-
-}}}}}on":9
-                }
-		    ]
-		}
-	]
-}
-}
-		}
-	]
-}
-
-}}		    ]
-		}
-	]
-}
-
-}}
-		}
-	]
-}
-
-}}
-                }
-		    ]
-		}
-	]
-}
-
-}}
