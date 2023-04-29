@@ -3,7 +3,7 @@ const { Movie, Scene } = require('json2video-sdk');
 async function main(){
   let movie = new Movie;
 
-  movie.setAPIKey("Hkrf4UF5S17YD2vWLNDyx9eMi63T9yub2USh2zmX");
+  movie.setAPIKey("API key JSON2Video.com");
 
   movie.set("comment", "Introducing the Slakenet Business Suite");
   movie.set("resolution", "full-hd");
