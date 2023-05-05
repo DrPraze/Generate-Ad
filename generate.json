@@ -31,7 +31,7 @@
 				{
 				    "type": "voice",
 				    "text": "We've all been there - scrolling through our social media feeds, bombarded with generic ads that don't interest us at all. But what if there was a way to personalize those ads, to make them relevant and engaging?",
-				    "voice": "en-NG-EzinneNeural"
+				    "voice": "en-US-AmberNeural"
 				}
 			]
 		},
@@ -39,7 +39,8 @@
 			"elements":[
 				{
 					"type":"video",
-					"src":"https://download.pexels.com/vimeo/539041039/pexels-tima-miroshnichenko-7579953.mp4?fps=25.0&width=1366"
+					"src":"https://download.pexels.com/vimeo/539041039/pexels-tima-miroshnichenko-7579953.mp4?fps=25.0&width=1366",
+                    "muted":true
 				},
 				{
 				    "type": "component",
@@ -69,8 +70,8 @@
 				},
 				{
 					"type": "voice",
-					"text": "Introducing Slakenet Business Suite - the platform that uses state-of-the-art technology to analyze customer data and generate personalized ads that resonate with your target audience. And the best part? We're very cheap, almost free.",
-					"voice": "en-NG-EzinneNeural"
+					"text": "Introducing Slakenet Business Suite - the platform that uses state-of-the-art technology to analyze customer data and generate personalized ads that resonate with your target audience. And we're pioneering free internet in the process.",
+					"voice": "en-US-AmberNeural"
 				}
 			
 			]
@@ -113,7 +114,7 @@
 		      	{
                     "type": "voice",
                     "text": "Our platform is powered by AI, meaning your ads are 100% personalized and tailored to your customers' interests. You can target specific personas - you can create ads that speak to them in their language, best time to be approached, etc, making the experience even more engaging!",
-                    "voice": "en-NG-EzinneNeural"
+                    "voice": "en-US-AmberNeural"
                 }
 			
 			]
@@ -133,7 +134,7 @@
                     "settings": {
                         "font-family": "Bebas Neue",
                         "font-weight": "400",
-                        "font-size": "30vw",
+                        "font-size": "25vw",
                         "vertical-align": "bottom",
                         "horizontal-align": "left",
                         "text-align": "left",
@@ -164,7 +165,7 @@
                     "settings": {
                         "font-family": "Bebas Neue",
                         "font-weight": "400",
-                        "color": "white",
+                        "color": "#FFF",
                         "font-size": "10vw"
                     },
                     "x": 960,
@@ -227,8 +228,8 @@
                 },
                 {
                     "type": "voice",
-                    "text": "We generated this ad by simply placing a simple product description of the Slakenet business suite to our algorithms, but we're making it more robust and the video ads more advanced. We're launching our Slakenet Business Suite beta very soon, to help you launch personalized ads that truly resonate with your customers. Follow us on twitter and Facebook to get updates",
-                    "voice": "en-NG-EzinneNeural"
+                    "text": "We generated this ad by simply placing a simple product description of the Slakenet business suite to our algorithms, but we're making it more robust and the video ads more advanced. We're launching our beta very soon, to help you launch personalized ads that truly resonate with your customers. Follow us on twitter and Facebook to learn more and get updates",
+                    "voice": "en-US-AmberNeural"
                 }
             ]
 		},
@@ -236,7 +237,7 @@
 		    "elements":[
                 {
                     "type":"image",
-                    "src":"https://res.cloudinary.com/db8bxn9pc/image/upload/v1682447925/Add_a_subheading_zhi744.png",
+                    "src":"https://res.cloudinary.com/ddfmqipvq/image/upload/v1683289586/WhatsApp_Image_2023-05-05_at_12.33.49_y6ff0l.jpg",
                     "position":"center-center",
                     "duration":9
                 }
