@@ -1,0 +1,233 @@
+{
+  "resolution": "full-hd",
+  "quality": "high",
+  "draft": true,
+  "elements":[
+      {
+          "type": "audio",
+          "src": "https://res.cloudinary.com/db8bxn9pc/video/upload/v1682448360/inspire_jsmwnu.mp3",
+          "volume": 1,
+          "duration": 30
+      }
+  ],
+  "scenes": [
+    {
+      "background-color": "#0F132D",
+      "elements": [
+        {
+          "type": "text",
+          "style": "008",
+          "text": "Introducing Slakenet",
+          "settings": {
+            "color": "#face34",
+            "font-size": "10vw",
+            "font-family": "Bebas Neue"
+          },
+          "duration": 5,
+          "cache": false
+        },
+        {
+            "type": "voice",
+            "text": "Introducing Slakenet, a self sustaining network for you.",
+            "voice": "en-US-AmberNeural"
+        }
+      ]
+    },
+    {
+        "elements":[
+            {
+                "type":"video",
+                "src":"https://download.pexels.com/vimeo/539041039/pexels-tima-miroshnichenko-7579953.mp4?fps=25.0&width=1366",
+                "muted":true
+            },
+            {
+                "type":"video",
+                "src":"pexels sd video",
+                "position": "top-right",
+                "duration": 5
+            },
+            {
+                "type": "voice",
+                "text": "Whether you need internet access and have high scores on chrome dinosaur",
+                "voice": "en-US-AmberNeural"
+            }
+        ]
+    },
+    {
+        "elements":[
+            {
+                "type":"video",
+                "src":"https://download.pexels.com/vimeo/539041039/pexels-tima-miroshnichenko-7579953.mp4?fps=25.0&width=1366",
+                "muted":true
+            },
+            {
+                "type":"text",
+                "style":"006",
+                "text": "Connect with your target audience"
+            },
+            {
+                "type": "voice",
+                "text": "or you need to target your market segment to grow your business. We're here for you",
+                "voice": "en-US-AmberNeural"
+            }
+        ]
+    },
+    {
+      "background-color": "#000000",
+      "elements": [
+        {
+          "type": "image",
+          "src": "product_image.jpg",
+          "x": -490
+        },
+        {
+          "type": "text",
+          "style": "001",
+          "text": "Coming soon",
+          "settings": {
+            "font-family": "Bebas Neue",
+            "font-weight": "400",
+            "font-size": "30vw",
+            "vertical-align": "bottom",
+            "horizontal-align": "left",
+            "text-align": "left",
+            "opacity": "0.5",
+            "line-height": "25vw"
+          },
+          "width": 960,
+          "x": 30,
+          "cache": false
+        },
+        {
+          "type": "component",
+          "component": "basic/100",
+          "settings": {
+            "box": {
+              "initial_left": "100%",
+              "final_left": "50%",
+              "background": "#0F132D",
+              "box-shadow": "none",
+              "duration": 2000
+            }
+          }
+        },
+        {
+          "type": "text",
+          "style": "001",
+          "text": "Featuring",
+          "settings": {
+            "font-family": "Bebas Neue",
+            "font-weight": "400",
+            "color": "#face34",
+            "font-size": "10vw"
+          },
+          "x": 960,
+          "y": 40,
+          "width": 960,
+          "height": 200
+        },
+        {
+          "type": "component",
+          "component": "basic/125",
+          "settings": {
+            "table": {
+              "width": "100vw",
+              "font-size": "4vw",
+              "font-family": "Lato",
+              "font-weight": "300",
+              "border-spacing": "0 4vw"
+            },
+            "header": {
+              "display": "none",
+              "column-widths": [
+                "35%",
+                "65%"
+              ]
+            },
+            "first-column": {
+              "border-right": "4px solid black",
+              "text-align": "right"
+            },
+            "cells": {
+              "padding": "5px 10px"
+            },
+            "data": {
+              "columns": [
+                "Featuring",
+                ""
+              ],
+              "rows": [
+                [
+                  "Market Analysis",
+                  "<b>Analyze your market</b> by getting access to real time data. Find where your market segments are hanging out"
+                ],
+                [
+                  "Automated Personalized Targeting",
+                  "<b>Automate your marketing</b> by using AI to generate personalized engaging ads"
+                ],
+                [
+                  "Iterate & Improve",
+                  "<b>Continously improve your marketing</b> with feedback data and smart suggestions"
+                ]
+              ]
+            }
+          },
+          "width": 960,
+          "x": 960,
+          "start": 2
+        }
+      ],
+      "duration": 10
+    },
+    {
+        "elements":[
+            {
+                "type":"video",
+                "src":"https://download.pexels.com/vimeo/539041039/pexels-tima-miroshnichenko-7579953.mp4?fps=25.0&width=1366",
+                "muted":true
+            },
+            {
+                "type": "component",
+                "component": "basic/001",
+                "width": 920,
+                "x": 960,
+                "y": 160,
+                "settings": {
+                    "headline": {
+                        "text": "Idan no dey buy sub. Slakenet dey",
+                        "color": "white",
+                        "font-size": "6vw"
+                    },
+                    "body": {
+                        "text": [
+                            "state-of-the-art technology to generate personalized ads that resonate with your target audience",
+                            "Rewards people with internet access for their data"
+                        ],
+                        "color": "white",
+                        "font-size": "4vw"
+                    },
+                    "card": {
+                        "background": "rgb(0,0,0, 0.3)",
+                        "padding": "4vw"
+                    }
+                }
+            },
+            {
+                "type": "voice",
+                "text": "Introducing Slakenet Business Suite - the platform that uses state-of-the-art technology to analyze customer data and generate personalized ads that resonate with your target audience. And we're pioneering free internet in the process.",
+                "voice": "en-US-AmberNeural"
+            }
+        ]
+    },
+    {
+        "elements":[
+            {
+                "type":"image",
+                "src":"https://res.cloudinary.com/ddfmqipvq/image/upload/v1683289586/WhatsApp_Image_2023-05-05_at_12.33.49_y6ff0l.jpg",
+                "position":"center-center",
+                "duration":9
+            }
+        ]
+    }
+]
+}
