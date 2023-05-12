@@ -5,7 +5,7 @@
   "elements":[
       {
           "type": "audio",
-          "src": "https://res.cloudinary.com/db8bxn9pc/video/upload/v1682448360/inspire_jsmwnu.mp3",
+          "src": "https://res.cloudinary.com/db8bxn9pc/video/upload/v1683910071/dreams_mac3iy.mp3",
           "volume": 1,
           "duration": 30
       }
@@ -41,7 +41,7 @@
                 "muted":true
             },
             {
-                "type":"video",
+                "type":"image",
                 "src":"pexels sd video",
                 "position": "top-right",
                 "duration": 5
@@ -67,7 +67,7 @@
             },
             {
                 "type": "voice",
-                "text": "or you need to target your market segment to grow your business. We're here for you",
+                "text": "or you need to target your market segments to grow your business. We're here for you",
                 "voice": "en-US-AmberNeural"
             }
         ]
@@ -194,14 +194,14 @@
                 "y": 160,
                 "settings": {
                     "headline": {
-                        "text": "Idan no dey buy sub. Slakenet dey",
+                        "text": "Idan no dey buy sub...",
                         "color": "white",
                         "font-size": "6vw"
                     },
                     "body": {
                         "text": [
-                            "state-of-the-art technology to generate personalized ads that resonate with your target audience",
-                            "Rewards people with internet access for their data"
+                            "Fund your browsing by engaging with what you love",
+                            "Rewards people with internet data for their info data"
                         ],
                         "color": "white",
                         "font-size": "4vw"
