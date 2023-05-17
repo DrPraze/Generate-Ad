@@ -38,7 +38,8 @@
             {
                 "type":"video",
                 "src":"https://res.cloudinary.com/db8bxn9pc/video/upload/v1684172667/pexels-alena-darmel-7660481-1920x1080-25fps_xw5cpf.mp4",
-                "muted":true
+                "muted":true,
+                "duration": 5
             },
             {
                 "type":"image",
@@ -49,7 +50,7 @@
             {
                 "type": "voice",
                 "text": "Whether you need internet access and have high scores on chrome dinosaur",
-                "voice": "en-US-AmberNeural"
+                "voice": "en-US-TonyNeural"
             }
         ]
     },
@@ -58,7 +59,8 @@
             {
                 "type":"video",
                 "src":"https://res.cloudinary.com/db8bxn9pc/video/upload/v1684172842/pexels-rdne-stock-project-7947503-1920x1080-30fps_rlye3m.mp4",
-                "muted":true
+                "muted":true,
+                "duration": 5
             },
             {
                 "type":"text",
@@ -77,8 +79,7 @@
       "elements": [
         {
           "type": "image",
-          "src": "product_image.jpg",
-          // "x": -490
+          "src": "https://shortz.monster/st/platform.JPG",
           "position":"center-center"
         },
         {
@@ -176,15 +177,20 @@
           "width": 960,
           "x": 960,
           "start": 2
+        },
+        {
+          "type": "voice",
+          "text": "Our business suite contains what businesses need to do personalized automated marketing in an effective way",
+          "voice": "en-US-TonyNeural"
         }
       ],
-      "duration": 10
+      "duration": 6
     },
     {
         "elements":[
             {
                 "type":"image",
-                "src":"slakenet landing page",
+                "src":"https://shortz.monster/su/portfolio-1.jpg"
             },
             {
                 "type": "component",
@@ -194,7 +200,7 @@
                 "y": 160,
                 "settings": {
                     "headline": {
-                        "text": "Idan no dey buy sub...",
+                        "text": "Connect to the internet freely",
                         "color": "white",
                         "font-size": "6vw"
                     },
@@ -213,9 +219,9 @@
                 }
             },
             {
-                "type": "voice",
-                "text": "Introducing Slakenet Business Suite - the platform that uses state-of-the-art technology to analyze customer data and generate personalized ads that resonate with your target audience. And we're pioneering free internet in the process.",
-                "voice": "en-US-AmberNeural"
+              "type": "voice",
+              "text": "And we help you own your data and use it to fund your internet use. Follow us to learn more",
+              "voice": "en-US-AmberNeural"
             }
         ]
     },
@@ -223,7 +229,7 @@
         "elements":[
             {
                 "type":"image",
-                "src":"https://res.cloudinary.com/ddfmqipvq/image/upload/v1683289586/WhatsApp_Image_2023-05-05_at_12.33.49_y6ff0l.jpg",
+                "src":"https://shortz.monster/tu/Add_a_subheading.png",
                 "position":"center-center",
                 "duration":9
             }
