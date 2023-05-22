@@ -1,239 +1,489 @@
 {
+
   "resolution": "full-hd",
+
   "quality": "high",
-  "draft": true,
+
+  "draft": false,
+
   "elements":[
+
       {
+
           "type": "audio",
+
           "src": "https://res.cloudinary.com/db8bxn9pc/video/upload/v1683910071/dreams_mac3iy.mp3",
+
           "volume": 1,
+
           "duration": 30
+
       }
+
   ],
+
   "scenes": [
+
     {
+
       "background-color": "#0F132D",
+
       "elements": [
+
         {
+
           "type": "text",
+
           "style": "008",
+
           "text": "Introducing Slakenet",
+
           "settings": {
+
             "color": "#face34",
+
             "font-size": "10vw",
+
             "font-family": "Bebas Neue"
+
           },
+
           "duration": 5,
+
           "cache": false
+
         },
+
         {
+
             "type": "voice",
+
             "text": "Introducing Slakenet, a self sustaining network for you.",
+
             "voice": "en-US-AmberNeural"
+
         }
+
       ]
+
     },
+
     {
+
         "elements":[
+
             {
+
                 "type":"video",
+
                 "src":"https://res.cloudinary.com/db8bxn9pc/video/upload/v1684172667/pexels-alena-darmel-7660481-1920x1080-25fps_xw5cpf.mp4",
+
                 "muted":true,
+
                 "duration": 5
+
             },
+
             {
+
                 "type":"image",
-                "src":"https://res.cloudinary.com/db8bxn9pc/image/upload/v1684172700/download_pfzsom.png",
-                "position": "top-right",
+
+                "src":"https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/09/ChromeDino-796x500.png",
+
+                "position": "top-left",
+
                 "duration": 5
+
             },
+
             {
+
                 "type": "voice",
+
                 "text": "Whether you need internet access and have high scores on chrome dinosaur",
-                "voice": "en-US-TonyNeural"
-            }
-        ]
-    },
-    {
-        "elements":[
-            {
-                "type":"video",
-                "src":"https://res.cloudinary.com/db8bxn9pc/video/upload/v1684172842/pexels-rdne-stock-project-7947503-1920x1080-30fps_rlye3m.mp4",
-                "muted":true,
-                "duration": 5
-            },
-            {
-                "type":"text",
-                "style":"006",
-                "text": "Connect with your target audience"
-            },
-            {
-                "type": "voice",
-                "text": "or you need to target your market segments to grow your business. We're here for you",
+
                 "voice": "en-US-AmberNeural"
+
             }
+
         ]
+
     },
+
     {
+
+        "elements":[
+
+            {
+
+                "type":"video",
+
+                "src":"https://res.cloudinary.com/db8bxn9pc/video/upload/v1684172842/pexels-rdne-stock-project-7947503-1920x1080-30fps_rlye3m.mp4",
+
+                "muted":true,
+
+                "duration": 5
+
+            },
+
+            {
+
+                "type":"text",
+
+                "style":"006",
+
+                "text": "Connect with your target audience"
+
+            },
+
+            {
+
+                "type": "voice",
+
+                "text": "or you need to target your market segments to grow your business. We're here for you",
+
+                "voice": "en-US-AmberNeural"
+
+            }
+
+        ]
+
+    },
+
+    {
+
       "background-color": "#000000",
+
       "elements": [
+
         {
+
           "type": "image",
-          "src": "https://shortz.monster/st/platform.JPG",
+
+          "src": "https://res.cloudinary.com/ddfmqipvq/image/upload/v1684411521/WhatsApp_Image_2023-05-18_at_12.35.00_omsvd4.jpg",
+
           "position":"center-center"
+
         },
+
         {
+
           "type": "text",
+
           "style": "001",
+
           "text": "Coming soon",
+
           "settings": {
+
             "font-family": "Bebas Neue",
+
             "font-weight": "400",
+
             "font-size": "30vw",
+
             "vertical-align": "bottom",
+
             "horizontal-align": "left",
+
             "text-align": "left",
+
             "opacity": "0.5",
+
             "line-height": "25vw"
+
           },
+
           "width": 960,
+
           "x": 30,
+
           "cache": false
+
         },
+
         {
+
           "type": "component",
+
           "component": "basic/100",
+
           "settings": {
+
             "box": {
+
               "initial_left": "100%",
+
               "final_left": "50%",
-              "background": "#0F132D",
+
+              "background": "#face34",
+
               "box-shadow": "none",
+
               "duration": 2000
+
             }
+
           }
+
         },
+
         {
+
           "type": "text",
+
           "style": "001",
+
           "text": "Featuring",
+
           "settings": {
+
             "font-family": "Bebas Neue",
+
             "font-weight": "400",
-            "color": "#face34",
+
+            "color": "#0F132D",
+
             "font-size": "10vw"
+
           },
+
           "x": 960,
+
           "y": 40,
+
           "width": 960,
+
           "height": 200
+
         },
+
         {
+
           "type": "component",
+
           "component": "basic/125",
+
           "settings": {
+
             "table": {
+
               "width": "100vw",
+
               "font-size": "4vw",
+
               "font-family": "Lato",
+
               "font-weight": "300",
+
               "border-spacing": "0 4vw"
+
             },
+
             "header": {
+
               "display": "none",
+
               "column-widths": [
+
                 "35%",
+
                 "65%"
+
               ]
+
             },
+
             "first-column": {
+
               "border-right": "4px solid black",
+
               "text-align": "right"
+
             },
+
             "cells": {
+
               "padding": "5px 10px"
+
             },
+
             "data": {
+
               "columns": [
+
                 "Featuring",
+
                 ""
+
               ],
+
               "rows": [
+
                 [
+
                   "Market Analysis",
+
                   "<b>Analyze your market</b> by getting access to real time data. Find where your market segments are hanging out"
+
                 ],
+
                 [
+
                   "Automated Personalized Targeting",
+
                   "<b>Automate your marketing</b> by using AI to generate personalized engaging ads"
+
                 ],
+
                 [
+
                   "Iterate & Improve",
+
                   "<b>Continously improve your marketing</b> with feedback data and smart suggestions"
+
                 ]
+
               ]
+
             }
+
           },
+
           "width": 960,
+
           "x": 960,
+
           "start": 2
+
         },
+
         {
+
           "type": "voice",
+
           "text": "Our business suite contains what businesses need to do personalized automated marketing in an effective way",
-          "voice": "en-US-TonyNeural"
+
+          "voice": "en-US-AmberNeural"
+
         }
+
       ],
+
       "duration": 6
+
     },
+
     {
+        "background-color":"#0F132D",
+
         "elements":[
+
             {
+
                 "type":"image",
-                "src":"https://shortz.monster/su/portfolio-1.jpg"
+
+                "src":"https://res.cloudinary.com/ddfmqipvq/image/upload/v1684411521/WhatsApp_Image_2023-05-18_at_12.34.59_b94tzx.jpg"
+
             },
+
             {
+
                 "type": "component",
+
                 "component": "basic/001",
+
                 "width": 920,
+
                 "x": 960,
+
                 "y": 160,
+
                 "settings": {
+
                     "headline": {
+
                         "text": "Connect to the internet freely",
+
                         "color": "white",
+
                         "font-size": "6vw"
+
                     },
+
                     "body": {
+
                         "text": [
+
                             "Fund your browsing by engaging with what you love",
+
                             "Rewards people with internet data for their info data"
+
                         ],
+
                         "color": "white",
+
                         "font-size": "4vw"
+
                     },
+
                     "card": {
+
                         "background": "rgb(0,0,0, 0.3)",
+
                         "padding": "4vw"
+
                     }
+
                 }
+
             },
+
             {
+
               "type": "voice",
-              "text": "And we help you own your data and use it to fund your internet use. Follow us to learn more",
+
+              "text": "And we help you own your data and use it to fund your internet use.",
+
               "voice": "en-US-AmberNeural"
+
             }
+
         ]
+
     },
+
     {
+        "background-color":"#0F132D",
+
         "elements":[
+
             {
+
                 "type":"image",
-                "src":"https://shortz.monster/tu/Add_a_subheading.png",
+
+                "src":"https://res.cloudinary.com/db8bxn9pc/image/upload/v1684418923/Add_a_subheading_c6zhvk.png",
+
                 "position":"center-center",
+
                 "duration":9
+
+            },
+
+            {
+
+              "type": "voice",
+
+              "text": "Follow us on our social media pages to learn more",
+
+              "voice": "en-US-AmberNeural"
+
             }
+
         ]
+
     }
+
 ]
+
 }
